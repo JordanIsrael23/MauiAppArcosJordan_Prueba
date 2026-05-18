@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppArcosJordan_Prueba.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="CRUD DE PRODUCTOS"/>
+            <Label Text="Examen: Jordan Arcos"/>
+            <Label />
+            <Label Text="ID:"/>
+            <Entry x:Name="txtId"/>
+            <Label Text="Nombre:"/>
+            <Entry x:Name="txtNombre"/>
+            <Label Text="Cantidad:"/>
+            <Entry x:Name="txtCantidad"/>
+            <Label Text="Descripción:"/>
+            <Entry x:Name="txtDescripcion"/>
+            <Label Text="Categoria:"/>
+            <Entry x:Name="txtCaregoria"/>
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked"/>
+            <Button x:Name="btnLeer" Text="Leer" Clicked="btnLeer_Clicked"/>
+            <Button x:Name="btnActualziar" Text="Actualizar" Clicked="btnActualziar_Clicked"/>
+            <Button x:Name="btnEliminiar" Text="Eliminar" Clicked="btnEliminiar_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
